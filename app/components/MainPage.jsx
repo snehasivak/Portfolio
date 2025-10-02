@@ -1,12 +1,12 @@
 'use client';
 
 import React from 'react';
-import HeroSection from "./HeroSection";
-import NavBar from "./NavBar";
-import About from "./About";
-import Skills from "./Skills";
-import Projects from "./Projects";
-import Contact from "./Contact";
+import HeroSection from "./HeroSection.jsx";
+import NavBar from "./NavBar.jsx";
+import About from "./About.jsx";
+import Skills from "./Skills.jsx";
+import Projects from "./Projects.jsx";
+import Contact from "./Contact.jsx";
 
 const MainPage = () => {
     return (
