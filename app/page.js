@@ -22,7 +22,7 @@ import Skills from "./components/homepage/skills";
 //   return filtered;
 // };
 
-// export default async function Home() {
+export default async function Home() {
 //   const blogs = await getData();
 
   return (
@@ -37,4 +37,4 @@ import Skills from "./components/homepage/skills";
       <ContactSection />
     </div>
   )
-// };
+};
