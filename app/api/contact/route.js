@@ -46,26 +46,26 @@ const generateEmailTemplate = (name, email, userMessage) => `
 `;
 
 // Helper function to send an email via Nodemailer
-// async function sendEmail(payload, message) {
-//   const { name, email, message: userMessage } = payload;
+async function sendEmail(payload, message) {
+  const { name, email, message: userMessage } = payload;
   
-//   const mailOptions = {
-//     from: "Portfolio", 
-//     to: process.env.EMAIL_ADDRESS, 
-//     subject: `New Message From ${name}`, 
-//     text: message, 
-//     html: generateEmailTemplate(name, email, userMessage), 
-//     replyTo: email, 
-//   };
+  const mailOptions = {
+    from: "Portfolio", 
+    to: process.env.EMAIL_ADDRESS, 
+    subject: `New Message From ${name}`, 
+    text: message, 
+    html: generateEmailTemplate(name, email, userMessage), 
+    replyTo: email, 
+  };
   
-//   try {
-//     await transporter.sendMail(mailOptions);
-//     return true;
-//   } catch (error) {
-//     console.error('Error while sending email:', error.message);
-//     return false;
-//   }
-// };
+  try {
+    await transporter.sendMail(mailOptions);
+    return true;
+  } catch (error) {
+    console.error('Error while sending email:', error.message);
+    return false;
+  }
+};
 
 export async function POST(request) {
   try {
