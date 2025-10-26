@@ -20,27 +20,27 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Javeed Ishaq",
-  title: "Hi all, I'm Javeed Ishaq",
+  username: "Sneha Sivakumar",
+  title: "Hi all, I'm Sneha Sivakumar",
   subTitle: emoji(
-    "A passionate Software Developer, who currently loves to build mobile apps using Flutter,with 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Django / Android Kotlin / Dart / Flutter and Firebase."
+    "A passionate Full Stack Web Developer 🚀 who loves crafting dynamic and user-friendly web applications. Experienced in building modern, scalable projects using Svelte / Symfony / PHP / MySQL / Docker / JavaScript, with a strong focus on clean code, problem-solving, and continuous learning."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1RQjZwdIptXf08-y0_EXM8lIUTKccID5l/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1U9vpzqc3L5yUucTIggqGFU_f5bTr1Xee/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/javeedishaq",
-  linkedin: "https://www.linkedin.com/in/javeed-ishaq/",
-  gmail: "ishaqjaveed1@gmail.com",
-  gitlab: "https://gitlab.com/JaveedIshaq",
-  facebook: "https://web.facebook.com/javeedishaq",
-  twitter: "https://twitter.com/javeedishaq",
-  medium: "https://medium.com/@javeedishaq",
-  stackoverflow: "https://stackoverflow.com/users/4778545/javeed-ishaq",
+  github: "https://github.com/snehasivak",
+  linkedin: "http://www.linkedin.com/in/sneha-sivakumar-587869268",
+  gmail: "snehaamal904@gmail.com",
+  //gitlab: "https://gitlab.com/JaveedIshaq",
+  //facebook: "https://web.facebook.com/javeedishaq",
+  //twitter: "https://twitter.com/javeedishaq",
+  //medium: "https://medium.com/@javeedishaq",
+  //stackoverflow: "https://stackoverflow.com/users/4778545/javeed-ishaq",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -50,11 +50,13 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "FULL STACK MOBILE APPS DEVELOPER WHO WANTS TO EXPLORE MOBILE TECH STACK",
+  subTitle: "FULL STACK WEB DEVELOPER WHO LOVES BUILDING SCALABLE & IMPACTFUL WEB SOLUTIONS",
   skills: [
-    emoji("⚡ Dream architect and design mobile applications that provide relentless pursuit to craft innovative solutions"),
-    emoji("⚡ Amazing Mobile App Products with Clean and maintainable code"),
-    emoji("⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean")
+    emoji("⚡ Architect and develop dynamic, user-friendly web applications with clean, maintainable code"),
+    emoji("⚡ Build robust backends using Symfony and MySQL with efficient database design"),
+    emoji("⚡ Create responsive and modern frontends with Svelte"),
+    emoji("⚡ Containerize and deploy applications using Docker for smooth CI/CD workflows"),
+    emoji("⚡ Integrate APIs and optimize performance for seamless user experiences")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon

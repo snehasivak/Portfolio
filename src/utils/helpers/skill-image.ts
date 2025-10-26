@@ -10,6 +10,7 @@ export type Skill =
   | 'bootstrap'
   | 'bulma'
   | 'c'
+  | 'c++'
   | 'capacitorjs'
   | 'coffeescript'
   | 'css'
@@ -85,7 +86,7 @@ export const skillsImage = (skill: string): string => {
       return `/assets/svg/skills/${skillID}.svg`;
     case 'coffeescript':
       return `/assets/svg/skills/${skillID}.svg`;
-    case 'cplusplus':
+    case 'c++':
       return `/assets/svg/skills/${skillID}.svg`;
     case 'csharp':
       return `/assets/svg/skills/${skillID}.svg`;
