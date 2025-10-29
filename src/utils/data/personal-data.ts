@@ -7,11 +7,11 @@ export const personalData = {
   phone: '+91 7736631420',
   address: 'Kerala, India',
   github: 'https://github.com/snehasivak',
-  //facebook: 'https://web.facebook.com/javeedishaq',
+  //facebook: 'https://web.facebook.com/javeedisha',
   linkedIn: 'http://www.linkedin.com/in/sneha-sivakumar-587869268',
   //twitter: 'https://twitter.com/javeedishaq',
   //stackOverflow: 'https://stackoverflow.com/users/4778545/javeed-ishaq',
   leetcode: "",
   devUsername: "sneha_sivakumar",
-  resume: "https://drive.google.com/file/d/1U9vpzqc3L5yUucTIggqGFU_f5bTr1Xee/view?usp=sharing"
+  resume: "https://drive.google.com/file/d/1bxh2QRzc3VOSVcbLpdmnnxO1jDnvfZI-/view?usp=sharing"
 }
