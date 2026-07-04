@@ -6,7 +6,7 @@ export const educations: Education[] = [
     title: "Bachelor of Technology in Information Technology",
     duration: "2022-2026",
     institution: "Cochin University of Science and Technology",
-    cgpa: "CGPA : 8.96"
+    cgpa: "CGPA : 9.04"
   },
   //{
   //  id: 2,

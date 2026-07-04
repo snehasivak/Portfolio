@@ -17,6 +17,16 @@ interface Project {
 export const projects: Project[] = [
     {
         id: 1,
+        name: "Gradix: AI-Driven Answer Sheet Evaluation System",
+        description: "Built an application that leverages Google Gemini 1.5 Flash and BERT embeddings to transcribe and semantically grade handwritten descriptive exams. Includes a Human-in-the-Loop review dashboard, and implemented a relational database to securely track evaluation metrics.",
+        tools: ["Python", "Flask", "Google Gemini API", "BERT", "SQLite"],
+        code: "",
+        demo: "https://apps.apple.com/us/app/crunch-africa/id1537297077",
+        image: "assets/images/projects/crunch-africa.webp",
+        role: "Full Stack Developer",
+    },
+    {
+        id: 2,
         name: "Purchase Management System for State Transport",
         description: "Developed a web-based system to streamline the purchase and inventory management process in the state transport department. The project involved three main actors — Mechanic, Administrator, and Manufacturer — to handle tasks such as raising purchase requests, approving orders, and managing supplier details.",
         tools: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
@@ -35,16 +45,6 @@ export const projects: Project[] = [
         image: "assets/images/projects/akyurt-online.webp",
         role: "Flutter Developer",
     },
-    //{
-        //id: 3,
-        //name: "Baredex",
-        //description: "Mobile application with focus on REST API integration and data management. Implemented Provider pattern for efficient state management and created a robust architecture for API communication.",
-        //tools: ["Flutter", "Provider", "REST API"],
-        //code: "",
-        //demo: "https://play.google.com/store/apps/details?id=com.breadex.app",
-        //image: "assets/images/projects/baredex.webp",
-        //role: "Flutter Developer",
-    //},
     //{
         //id: 4,
         //name: "Mocowi",

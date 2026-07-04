@@ -3,9 +3,9 @@ import { Experience } from "@/core/models/experience.interface";
 export const experiences: Experience[] = [
   {
     id: 1,
-    title: 'Software Developer Intern',
-    company: "EQS Group, Kochi, Kerala",
-    duration: "May-July 2025"
+    title: 'Software Engineer Intern',
+    company: "EQS Web Technologies, Kochi, Kerala",
+    duration: "January 2026 - June 2026"
   },
   //{
     //id: 2,
